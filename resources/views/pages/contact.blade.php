@@ -2,7 +2,8 @@
 
 @section('content')
 
-    <form>
+    <form action="/contact" method="post">
+        @csrf
         <div class="form-group">
             <label for="exampleFormControlInput1">First Name</label>
             <input type="text" name="firstname" class="form-control" id="firstname" placeholder="John">
