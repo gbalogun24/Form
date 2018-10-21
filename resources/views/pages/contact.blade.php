@@ -5,7 +5,7 @@
     <div class="card mt-3 pl-2 pr-2">
         <div class="card-title"><h3>Contact Form</h3></div>
         <div class="card-body">
-    <form action="/contact" method="post">
+    <form action="{{route('info')}}" method="post">
         @csrf
         <div class="form-group">
             <label for="exampleFormControlInput1">First Name</label>

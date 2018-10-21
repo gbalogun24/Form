@@ -15,7 +15,9 @@ Route::get('/', 'PagesController@home')->name('home');
 
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/contact', 'PagesController@contact')->name('contact');
-Route::post('/contact', function () {
+Route::post('/contact', 'PagesController@info')->name('info');
+Route::get('/thanks/{firstname}', 'PagesController@thanks')->name('thanks');
+/*    function () {
    $data = request()->all();
    echo "Name: ".$data['firstname'];
-})->name('contact');
+})->name('contact');*/
