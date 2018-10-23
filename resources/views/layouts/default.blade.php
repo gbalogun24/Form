@@ -5,9 +5,7 @@
 
 </head>
 <body>
-<div class="container">
     <header>
-
         @include('includes.menu')
     </header>
     <main role="main">
@@ -18,6 +16,5 @@
     <footer>
         @include('includes.footer')
     </footer>
-</div>
 </body>
 </html>

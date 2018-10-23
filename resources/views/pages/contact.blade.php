@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-
+    <br><br><br>
     <div class="card mt-3 pl-2 pr-2">
         <div class="card-title"><h3>Contact Form</h3></div>
         <div class="card-body">
